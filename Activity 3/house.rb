@@ -41,7 +41,7 @@ class House
 end
 
 
-# house_type, house_color, doors, windows
+# house_type, house_color, doors, windows, rooms, bath
 house1 = House.new("Bungalow", "Brown", 2, 3, 3, 2)
 house1.get_details
 
