@@ -2,8 +2,12 @@ def perfect_square?(num)
   return false if num < 0
   return true if num == 0
 
-  for i in (1..num)
-    return true if i * i == num
+  # for i in (1..num)
+  #   return true if i * i == num
+  # end
+
+  (1..num).each do |number|
+    return true if number * number == num
   end
   false
 end
